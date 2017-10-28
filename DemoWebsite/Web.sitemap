@@ -1,38 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="Default.aspx" title="Home" description="The Home Page">
-    
+
     <siteMapNode url="Sub/SettingSiteMapDataSourceProperties.aspx" title="Setting SiteMapDataSource Properties" description="Thiết lập thuộc tính cho SiteMapDataSource">
       <siteMapNode url="Sub/ShowStartingNode.aspx" title="ShowStartingNode" description="Thiết lập thuộc tính ShowStartingNode" />
       <siteMapNode url="Sub/StartFromCurrentNode.aspx" title="StartFromCurrentNode" description="Thiết lập thuộc tính StartFromCurrentNode" />
       <siteMapNode url="Sub/StartingNodeOffset.aspx" title="StartingNodeOffset" description="Thiết lập thuộc tính StartingNodeOffset" />
       <siteMapNode url="Sub/StartingNodeUrl.aspx" title="StartingNodeUrl" description="Thiết lập thuộc tính StartingNodeUrl" />
     </siteMapNode>
-    
+
     <siteMapNode url="Sub/UsingSiteMapClass.aspx" title="UsingSiteMapClass" description="Sử dụng SiteMapClass">
-      <siteMapNode url="Sub/StartingNodeOffset2.aspx" title="First Service" description="The description of the First Service" metaDescription="The first service" />
-      <siteMapNode url="Sub/StartingNodeOffset3.aspx" title="Second Service" description="The description of the Second Service" />
+      
     </siteMapNode>
 
     <siteMapNode url="Sub/UsingSiteMapNodeClass.aspx" title="UsingSiteMapNodeClass" description="Sử dụng SiteMapNodeClass">
-      
+
     </siteMapNode>
 
     <siteMapNode url="Sub/AdvancedSiteMapConfiguration.aspx" title="AdvancedSiteMapConfiguration" description="Sử dụng AdvancedSiteMapConfiguration">
-      
+      <siteMapNode url="Sub/UsingSecurityTrimming.aspx" title="UsingSecurityTrimming" description="Sử dụng Security Trimming" />
+      <siteMapNode url="Sub/MergingMultipleSiteMaps.aspx" title="MergingMultipleSiteMaps" description="Gộp nhiều SiteMap" />
+      <siteMapNode url="Sub/CreatingCustomSiteMapAttributest.aspx" title="CreatingCustomSiteMapAttributest" description="Creating Custom Site Map Attributest" />
     </siteMapNode>
-
-    <siteMapNode url="Sub/UsingSecurityTrimming.aspx" title="UsingSecurityTrimming" description="Sử dụng SecurityTrimming">
-      
-    </siteMapNode>
-
-    <siteMapNode url="Sub/MergingMultipleSiteMaps.aspx" title="MergingMultipleSiteMaps" description="Gộp nhiều SiteMap">
-      
-    </siteMapNode>
-
-    <siteMapNode url="Sub/CreatingCustomSiteMapAttributest.aspx" title="CreatingCustomSiteMapAttributest" description="Creating Custom Site Map Attributest">
-      
-    </siteMapNode>
-    
   </siteMapNode>
 </siteMap>

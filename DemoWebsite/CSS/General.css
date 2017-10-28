@@ -27,7 +27,7 @@
     border-top: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
-    min-height: 600px;
+    min-height: 792px;
 }
 
 .btnLink {
@@ -43,7 +43,8 @@
 }
 
 .btnLink:hover {
-    color: aqua;
+    color: orangered;
+    background-color: #140091;
 }
 
 /* Content */
