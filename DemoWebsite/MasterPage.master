@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Demo sử dụng SiteMapDataSource Control</title>
+    <link href="CSS/General.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Header -->
+        <div class="dvHeader">
+            <h1 id="h1Title">
+                <p>
+                    Lập trình web
+                    <img src="Images/logo_hcmcou.png" alt="Logo trường Đại học Mở TPHCM" id="imgLogoTruong" /><br />
+                    <asp:ContentPlaceHolder id="title" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </p>
+            </h1>
+        </div>
+
+        <!-- Menu Left -->
+        <div class="dvMenuLeft">
+            <table id="tbMenu">
+                <!-- Home -->
+                <tr>
+                    <td>
+                        <a href="Default.aspx" target="_self">
+                            <button type="button" class="btnLink">Trang chủ</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Setting SiteMapDataSource Properties -->
+                <tr>
+                    <td>
+                        <a href="Sub/SettingSiteMapDataSourceProperties.aspx" target="_self">
+                            <button type="button" class="btnLink">Setting<br />SiteMapDataSource<br />Properties</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Using the SiteMap Class -->
+                <tr>
+                    <td>
+                        <a href="Sub/UsingSiteMapClass.aspx" target="_self">
+                            <button type="button" class="btnLink">Using the<br />SiteMap Class</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Using the SiteMapNode Class -->
+                <tr>
+                    <td>
+                        <a href="Sub/UsingSiteMapNodeClass.aspx" target="_self">
+                            <button type="button" class="btnLink">Using the<br />SiteMapNode Class</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Advanced Site Map Configuration -->
+                <tr>
+                    <td>
+                        <a href="Sub/AdvancedSiteMapConfiguration.aspx" target="_self">
+                            <button type="button" class="btnLink">Advanced<br />Site Map<br />Configuration</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Using Security Trimming -->
+                <tr>
+                    <td>
+                        <a href="Sub/UsingSecurityTrimming.aspx" target="_self">
+                            <button type="button" class="btnLink">Using Security<br />Trimming</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Merging Multiple Site Maps -->
+                <tr>
+                    <td>
+                        <a href="Sub/MergingMultipleSiteMaps.aspx" target="_self">
+                            <button type="button" class="btnLink">Merging Multiple<br />Site Maps</button>
+                        </a>
+                    </td>
+                </tr>
+                <!-- Creating Custom Site Map Attributest -->
+                <tr>
+                    <td>
+                        <a href="Sub/CreatingCustomSiteMapAttributest.aspx" target="_self">
+                            <button type="button" class="btnLink">Creating<br />Custom Site Map<br />Attributest</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Content -->
+        <div class="dvContent">
+            <asp:ContentPlaceHolder id="Content" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+        <div class="dvFooter">
+            1551010009 - Lê Hoàng Quốc Bảo
+        </div>
+    </form>
+</body>
+</html>

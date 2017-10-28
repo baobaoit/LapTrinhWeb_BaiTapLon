@@ -1,0 +1,71 @@
+﻿body {
+    background-color: gainsboro;
+}
+
+/* Header */
+.dvHeader {
+    background-color: aqua;
+    border-bottom: 1px solid white;
+}
+
+#h1Title {
+    color: red;
+    text-shadow: 2px 2px #000000;
+}
+
+#imgLogoTruong {
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+
+/* Menu Left */
+.dvMenuLeft {
+    float: left;
+    margin-top: 5px;
+    background-color: aqua;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    min-height: 600px;
+}
+
+.btnLink {
+    background-color: forestgreen;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 3px solid #ffff00;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    width: 170px;
+}
+
+.btnLink:hover {
+    color: aqua;
+}
+
+/* Content */
+.dvContent {
+    float: left;
+    background-color: aqua;
+    width: 86%;
+    min-height: 792px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ffffff;
+}
+
+/* Footer */
+.dvFooter {
+    color: darkorange;
+    clear: both;
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-top: 2px solid #ffffff;
+}
