@@ -15,9 +15,6 @@
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="Content">
-    <p style="font-size: 36px; font-weight: bold; text-align: center; margin-bottom: 0;">
-        Lớp SiteMap là một lớp tĩnh sử dụng các phương thức tĩnh.
-    </p>
     <p style="font-size: 28px; font-weight: bold; text-align: center;">
         Sử dụng thuộc tính <span style="color: red;">CurrentNode</span> của lớp SiteMap để lấy SiteMapNode tương ứng với trang hiện tại.
         <br /><asp:Label ID="lbCurrentNode" runat="server" CssClass="Label"></asp:Label>

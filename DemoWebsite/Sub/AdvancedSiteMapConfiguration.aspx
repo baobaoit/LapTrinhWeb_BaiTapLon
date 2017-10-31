@@ -14,6 +14,9 @@
                         Trimming</button>
                 </a>
             </td>
+            <td>
+                <label style="font-size: x-large;">- Hiển thị các link theo vai trò người dùng.</label>
+            </td>
         </tr>
         <!-- Merging Multiple Site Maps -->
         <tr>
