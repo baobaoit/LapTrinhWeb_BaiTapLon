@@ -20,13 +20,10 @@
     <siteMapNode url="Sub/AdvancedSiteMapConfiguration.aspx" title="AdvancedSiteMapConfiguration" description="Sử dụng AdvancedSiteMapConfiguration">
       <siteMapNode url="Sub/UsingSecurityTrimming.aspx" title="UsingSecurityTrimming" description="Sử dụng Security Trimming" />
       <siteMapNode url="Sub/MergingMultipleSiteMaps.aspx" title="MergingMultipleSiteMaps" description="Gộp nhiều SiteMap" />
-      <siteMapNode url="Sub/CreatingCustomSiteMapAttributest.aspx" title="CreatingCustomSiteMapAttributest" description="Creating Custom Site Map Attributest" />
+      <siteMapNode url="Sub/CreatingCustomSiteMapAttributest.aspx" title="CreatingCustomSiteMapAttributest" description="Creating Custom Site Map Attributest"
+                   metaDescription="Meta của Creating Custom Site Map Attributest" />
     </siteMapNode>
 
-    <siteMapNode title="External Links" description="Links to external Websites" roles="RoleA,RoleB,RoleC">
-      <siteMapNode title="Google" url="http://www.Google.com" description="The Google Website" roles="RoleA" />
-      <siteMapNode title="Microsoft" url="http://www.Microsoft.com" description="The Microsoft Website" roles="RoleB" />
-      <siteMapNode title="Yahoo" url="http://www.Yahoo.com" description="The Yahoo Website" roles="RoleC" />
-    </siteMapNode>
+    <siteMapNode siteMapFile="UsingSecurityTrimming.sitemap" />
   </siteMapNode>
 </siteMap>

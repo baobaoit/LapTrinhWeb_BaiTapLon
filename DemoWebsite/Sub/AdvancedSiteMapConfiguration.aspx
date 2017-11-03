@@ -26,6 +26,9 @@
                         Site Maps</button>
                 </a>
             </td>
+            <td>
+                <label style="font-size: x-large;">- Gộp nhiều SiteMap khi trang web được thực thi.</label>
+            </td>
         </tr>
         <!-- Creating Custom Site Map Attributest -->
         <tr>
@@ -35,6 +38,9 @@
                         Custom Site Map<br />
                         Attributest</button>
                 </a>
+            </td>
+            <td>
+                <label style="font-size: x-large;">- Tạo thuộc tính tùy chỉnh cho Site Map.</label>
             </td>
         </tr>
     </table>

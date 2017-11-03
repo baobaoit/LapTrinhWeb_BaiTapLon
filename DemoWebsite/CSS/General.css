@@ -27,7 +27,7 @@
     border-top: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
-    min-height: 792px;
+    min-height: 888px;
 }
 
 .btnLink {
@@ -52,7 +52,7 @@
     float: left;
     background-color: aqua;
     width: 86%;
-    min-height: 792px;
+    min-height: 888px;
     margin-top: 5px;
     margin-left: 8px;
     margin-bottom: 5px;

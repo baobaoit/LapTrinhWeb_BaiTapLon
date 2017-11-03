@@ -20,9 +20,10 @@
 <asp:Content runat="server" ContentPlaceHolderID="Content">
     <p style="font-size: 36px; font-weight: bold; text-align: center;">
         Hiển thị liên kết điều hướng khác nhau cho các người dùng khác nhau, tùy thuộc vào vai trò [Role(s)] của họ.
-        <br /><asp:HyperLink ID="hylnkQuayLai" runat="server"
-        BackColor="Blue" ForeColor="White" Font-Size="XX-Large"
-        NavigateUrl="~/Sub/AdvancedSiteMapConfiguration.aspx"><-- Quay lại</asp:HyperLink>
+        <br />
+        <asp:HyperLink ID="hylnkQuayLai" runat="server"
+            BackColor="Blue" ForeColor="White" Font-Size="XX-Large"
+            NavigateUrl="~/Sub/AdvancedSiteMapConfiguration.aspx"><-- Quay lại</asp:HyperLink>
     </p>
     <div class="column">
         <asp:Label ID="lblSelectRoles" Text="Chọn vai trò:" AssociatedControlID="cblSelectRoles" runat="server" />
