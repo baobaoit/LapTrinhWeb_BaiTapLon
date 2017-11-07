@@ -6,6 +6,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="Content">
     <p style="font-size: 36px; font-weight: bold; text-align: center;">
+        Đây là trang chủ.<br />
         Bấm chọn phần muốn xem ở menu bên trái!
     </p>
 </asp:Content>

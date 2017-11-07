@@ -14,7 +14,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="Content">
     <p style="font-size: 36px; font-weight: bold; text-align: center;">
-        Ví dụ để cho các công cụ tìm kiếm dễ dành lập chỉ mục cho trang web, cần thêm thẻ mô tả <code>meta</code> cho trang web, 
+        Ví dụ để cho các công cụ tìm kiếm dễ dàng lập chỉ mục cho trang web, cần thêm thẻ mô tả <code>meta</code> cho trang web, 
         bằng cách thêm một thuộc tính <code>metaDescription</code> vào (các) node cần thiết trong file SiteMap.
         <br />
         <asp:HyperLink ID="hylnkQuayLai" runat="server"

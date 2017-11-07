@@ -2,9 +2,13 @@
     background-color: gainsboro;
 }
 
+div {
+    border-radius: 10px;
+}
+
 /* Header */
 .dvHeader {
-    background-color: aqua;
+    background-color: #4c659c;
     border-bottom: 1px solid white;
 }
 
@@ -15,8 +19,6 @@
 
 #imgLogoTruong {
     float: right;
-    height: 100px;
-    width: 100px;
 }
 
 /* Menu Left */
