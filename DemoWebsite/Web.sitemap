@@ -21,9 +21,9 @@
       <siteMapNode url="Sub/UsingSecurityTrimming.aspx" title="UsingSecurityTrimming" description="Sử dụng Security Trimming" />
       <siteMapNode url="Sub/MergingMultipleSiteMaps.aspx" title="MergingMultipleSiteMaps" description="Gộp nhiều SiteMap" />
       <siteMapNode url="Sub/CreatingCustomSiteMapAttributest.aspx" title="CreatingCustomSiteMapAttributest" description="Creating Custom Site Map Attributest"
-                   metaDescription="Meta của Creating Custom Site Map Attributest" />
+                   metaMoTa="Meta của Creating Custom Site Map Attributest" />
     </siteMapNode>
 
-    <siteMapNode siteMapFile="UsingSecurityTrimming.sitemap" />
+    <siteMapNode siteMapFile="Sub/UsingSecurityTrimming.sitemap" />
   </siteMapNode>
 </siteMap>

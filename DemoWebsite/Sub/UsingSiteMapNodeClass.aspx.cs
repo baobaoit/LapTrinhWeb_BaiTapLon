@@ -13,7 +13,14 @@ public partial class Sub_UsingSiteMapNodeClass : System.Web.UI.Page
         {
             SiteMapNode currentNode = SiteMap.CurrentNode;
             lbCurrentNode.Text += "Tiêu đề trang: " + currentNode.Title + "<br />" +
-                                    "Mô tả trang: " + currentNode.Description;
+                                    "Mô tả trang: " + currentNode.Description + "<br />" +
+                                    "Key: " + currentNode.Key + "<br />" +
+                                    "NextSibling: " + currentNode.NextSibling + "<br />" +
+                                    "PreviousSibling: " + currentNode.PreviousSibling + "<br />";
+
+            SiteMapNode parentNode = SiteMap.CurrentNode.ParentNode;
+            lbHasChildNodes.Text += "Node cha của trang hiện tại: " + parentNode.Title + "<br />" +
+                                    "Thuộc tính HasChildNode trả về: " + parentNode.HasChildNodes;
         }
     }
 }

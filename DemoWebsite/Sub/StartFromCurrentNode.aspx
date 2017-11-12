@@ -6,8 +6,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="Content">
     <p style="font-size: 36px; font-weight: bold; text-align: center; margin-bottom: 0;">
-        StartFromCurrentNode để giá trị True sẽ ẩn Node gốc (Home) và các Node mức cha<br />
-        Chỉ show Node hiện tại (StartFromCurrentNode)
+        StartFromCurrentNode để giá trị True sẽ bắt đầu từ Node hiện tại (StartFromCurrentNode)
     </p>
     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" StartFromCurrentNode="True" />
     <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"

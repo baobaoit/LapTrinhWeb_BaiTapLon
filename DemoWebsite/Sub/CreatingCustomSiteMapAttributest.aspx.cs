@@ -14,8 +14,8 @@ public partial class Sub_CreatingCustomSiteMapAttributest : System.Web.UI.Page
         {
             HtmlMeta meta = new HtmlMeta()
             {
-                Name = "Description",
-                Content = SiteMap.CurrentNode["metaDescription"],
+                Name = "MoTa",
+                Content = SiteMap.CurrentNode["metaMoTa"],
             };
             Header.Controls.Add(meta);
         }

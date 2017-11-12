@@ -19,4 +19,8 @@
         Sử dụng lớp <span style="color: red;">SiteMapNode</span> để lấy thông tin tương ứng với trang hiện tại.
         <br /><asp:Label ID="lbCurrentNode" runat="server" CssClass="Label"></asp:Label>
     </p>
+    <p style="font-size: 28px; font-weight: bold; text-align: center;">
+        Sử dụng thuộc tính <span style="color: red;">HasChildNodes</span> kiểm tra có Node con không.
+        <br /><asp:Label ID="lbHasChildNodes" runat="server" CssClass="Label"></asp:Label>
+    </p>
 </asp:Content>
