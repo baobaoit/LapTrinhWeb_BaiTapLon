@@ -8,7 +8,7 @@ div {
 
 /* Header */
 .dvHeader {
-    background-color: #4c659c;
+    background-color: #7297e7;
     border-bottom: 1px solid white;
 }
 
@@ -18,7 +18,7 @@ div {
 }
 
 #imgLogoTruong {
-    float: right;
+    float: left;
 }
 
 /* Menu Left */
@@ -33,11 +33,11 @@ div {
 }
 
 .btnLink {
-    background-color: forestgreen;
+    background-color: #4c388b;
     color: white;
     font-size: 15px;
     border-radius: 10px;
-    border: 3px solid #ffff00;
+    border: 3px solid #e91515;
     padding: 15px;
     margin: 10px;
     cursor: pointer;
@@ -63,7 +63,7 @@ div {
 
 /* Footer */
 .dvFooter {
-    color: darkorange;
+    color: brown;
     clear: both;
     background-color: aqua;
     text-align: center;

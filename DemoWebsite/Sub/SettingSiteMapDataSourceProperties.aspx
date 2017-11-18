@@ -5,23 +5,23 @@
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="Content">
-    <p style="font-size: 36px; font-weight: bold; text-align: center; margin-bottom: 0;">
+    <p style="font-size: 36px; font-weight: bold; text-align: center;">
         Sử dụng thuộc tính mặc định của SiteMapDataSource Control
     </p>
     <table>
         <tr>
             <td class="auto-style1">
-                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
-                Sử dụng Menu<br />
+                <span class="auto-style3">Sử dụng Menu</span><br />
                 <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"
                     StaticMenuItemStyle-CssClass="menuItem"
                     DynamicMenuItemStyle-CssClass="menuItem">
                 </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
             </td>
-            <td>Sử dụng TreeView
+            <td><span class="auto-style3">Sử dụng TreeView</span>
     <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="XPFileExplorer" NodeIndent="15" Width="454px">
         <HoverNodeStyle Font-Underline="True" ForeColor="#6666AA" />
-        <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="Black" HorizontalPadding="2px" NodeSpacing="0px" VerticalPadding="2px" />
+        <NodeStyle Font-Names="Tahoma" Font-Size="Large" ForeColor="Black" HorizontalPadding="2px" NodeSpacing="0px" VerticalPadding="2px" />
         <ParentNodeStyle Font-Bold="False" />
         <SelectedNodeStyle BackColor="#B5B5B5" Font-Underline="False" HorizontalPadding="0px" VerticalPadding="0px" />
     </asp:TreeView>
@@ -29,8 +29,8 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style1">Sử dụng GridView<br />
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SiteMapDataSource1" ForeColor="Black" GridLines="Vertical">
+            <td class="auto-style1"><span class="auto-style3">Sử dụng GridView</span><br />
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SiteMapDataSource1" ForeColor="Black" GridLines="Vertical" Font-Size="Larger">
                     <AlternatingRowStyle BackColor="White" />
                     <Columns>
                         <asp:BoundField DataField="Description" HeaderText="Description" ReadOnly="True" SortExpression="Description" />
@@ -48,8 +48,8 @@
                     <SortedDescendingHeaderStyle BackColor="#575357" />
                 </asp:GridView>
             </td>
-            <td>Sử dụng DropDownList<br />
-                <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SiteMapDataSource1" DataTextField="Title" DataValueField="Title"></asp:DropDownList>
+            <td><span class="auto-style3">Sử dụng DropDownList</span><br />
+                <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SiteMapDataSource1" DataTextField="Title" DataValueField="Title" Font-Size="Larger"></asp:DropDownList>
             </td>
         </tr>
     </table>
@@ -58,6 +58,10 @@
     <style type="text/css">
         .auto-style1 {
             width: 696px;
+        }
+        .auto-style3 {
+            font-size: x-large;
+            color: red;
         }
     </style>
 </asp:Content>

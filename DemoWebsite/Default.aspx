@@ -7,6 +7,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="Content">
     <p style="font-size: 36px; font-weight: bold; text-align: center;">
         Đây là trang chủ.<br />
-        Bấm chọn phần muốn xem ở menu bên trái!
+        Bấm chọn phần muốn xem ở menu bên trái!<br />
+        <img src="Images/cursorPointLeft.png" width="500px" height="300px" />
     </p>
 </asp:Content>

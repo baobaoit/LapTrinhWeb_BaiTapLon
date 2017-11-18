@@ -22,11 +22,14 @@
     <form id="form1" runat="server">
         <!-- Header -->
         <div class="dvHeader">
-            <h1 id="h1Title">Lập trình web
-                    <img src="../Images/logo.png" alt="Logo trường Đại học Mở TPHCM" id="imgLogoTruong" /><br />
-                <asp:ContentPlaceHolder ID="title" runat="server">
-                </asp:ContentPlaceHolder>
-            </h1>
+            <img src="../Images/logo.png" alt="Logo trường Đại học Mở TPHCM" id="imgLogoTruong" />
+            <div align="center">
+                <h1 id="h1Title">Lập trình web
+                    <br />
+                    <asp:ContentPlaceHolder ID="title" runat="server">
+                    </asp:ContentPlaceHolder>
+                </h1>
+            </div>
         </div>
 
         <!-- Menu Left -->
@@ -44,7 +47,8 @@
                 <tr>
                     <td>
                         <a href="SettingSiteMapDataSourceProperties.aspx" target="_self">
-                            <button type="button" class="btnLink">Setting<br />
+                            <button type="button" class="btnLink">
+                                Setting<br />
                                 SiteMapDataSource<br />
                                 Properties</button>
                         </a>
@@ -54,7 +58,8 @@
                 <tr>
                     <td>
                         <a href="UsingSiteMapClass.aspx" target="_self">
-                            <button type="button" class="btnLink">Using the<br />
+                            <button type="button" class="btnLink">
+                                Using the<br />
                                 SiteMap Class</button>
                         </a>
                     </td>
@@ -63,7 +68,8 @@
                 <tr>
                     <td>
                         <a href="UsingSiteMapNodeClass.aspx" target="_self">
-                            <button type="button" class="btnLink">Using the<br />
+                            <button type="button" class="btnLink">
+                                Using the<br />
                                 SiteMapNode Class</button>
                         </a>
                     </td>
@@ -72,7 +78,8 @@
                 <tr>
                     <td>
                         <a href="AdvancedSiteMapConfiguration.aspx" target="_self">
-                            <button type="button" class="btnLink">Advanced<br />
+                            <button type="button" class="btnLink">
+                                Advanced<br />
                                 Site Map<br />
                                 Configuration</button>
                         </a>

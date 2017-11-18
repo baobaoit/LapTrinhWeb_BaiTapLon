@@ -5,10 +5,11 @@
         .column {
             float: left;
             margin-left: 5px;
-            width: 300px;
+            width: auto;
             border: Solid 1px black;
             background-color: white;
             padding: 10px;
+            font-size: large;
         }
     </style>
 </asp:Content>
